@@ -1,0 +1,83 @@
+/* Теги которые анулируют стандартные стили */
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size:  15px;
+    
+    
+}
+
+.main_theme {background-image: url(/images/8c973f72cd588c30686556de67ec3f20_darker.png);
+;
+background-size: 100%;
+
+
+}
+.text_main_page {color: white;
+opacity: 80%;
+text-align: center;
+text-shadow: 1px 1px black;
+font-size: 30px;
+}
+.link_page {
+    text-decoration: none;
+    color: aliceblue;
+    
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+/*страница с лабораторными*/
+.title h1 {
+ margin-bottom: 50px;   
+}
+.name {margin-bottom: 50px;}
+.list_menu {margin-bottom: 50px;
+}
+.list_menu li {
+    margin: 15px 0px;
+    
+}
+.menu {padding: 20vh 50px;
+position: fixed;
+;
+height: 100vh;
+backdrop-filter: blur(16px) black;
+border-right: 15px solid black;
+left: -285px;
+}
+.menu:hover {left: 0;
+transition: all 0.2s ease;}
+
+.link_to_main{position: absolute; bottom: 20px;
+color: black;}
+.link_lab {
+color: black;
+}
+/* checkbox */
+.lab_one_text{
+  color: black;  
+  text-align: center;
+  
+}
+
+.cursor {cursor: pointer;
+padding-bottom: 5px;
+}
+.link_for_lab_theme {
+color: black;
+padding-left: 20px;
+}
+.link_p {font-size: 30px;}
+.mistake_10 {
+    font-size: 14px;
+}
+
+
+/* img-картинки
+p-для текста
+br-для переезда текста на другую строку
+h1-6 - заголовок и его размер
+*/
